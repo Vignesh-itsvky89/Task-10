@@ -1,0 +1,73 @@
+D:\Automation study\Python Programming\Python class file\pythonProjectSelenium_0405\Task26>pip install selenium
+Requirement already satisfied: selenium in c:\users\vignesh\appdata\local\programs\python\python312\lib\site-packages (4.18.1)
+Requirement already satisfied: urllib3<3,>=1.26 in c:\users\vignesh\appdata\local\programs\python\python312\lib\site-packages (from urllib3[socks]<3,>=1.26->selenium) (2.2.1)
+Requirement already satisfied: trio~=0.17 in c:\users\vignesh\appdata\local\programs\python\python312\lib\site-packages (from selenium) (0.24.0)
+Requirement already satisfied: trio-websocket~=0.9 in c:\users\vignesh\appdata\local\programs\python\python312\lib\site-packages (from selenium) (0.11.1)
+Requirement already satisfied: certifi>=2021.10.8 in c:\users\vignesh\appdata\local\programs\python\python312\lib\site-packages (from selenium) (2024.2.2)
+Requirement already satisfied: typing_extensions>=4.9.0 in c:\users\vignesh\appdata\local\programs\python\python312\lib\site-packages (from selenium) (4.10.0)
+Requirement already satisfied: attrs>=20.1.0 in c:\users\vignesh\appdata\local\programs\python\python312\lib\site-packages (from trio~=0.17->selenium) (23.2.0)
+Requirement already satisfied: sortedcontainers in c:\users\vignesh\appdata\local\programs\python\python312\lib\site-packages (from trio~=0.17->selenium) (2.4.0)
+Requirement already satisfied: idna in c:\users\vignesh\appdata\local\programs\python\python312\lib\site-packages (from trio~=0.17->selenium) (3.6)
+Requirement already satisfied: outcome in c:\users\vignesh\appdata\local\programs\python\python312\lib\site-packages (from trio~=0.17->selenium) (1.3.0.post0)
+Requirement already satisfied: sniffio>=1.3.0 in c:\users\vignesh\appdata\local\programs\python\python312\lib\site-packages (from trio~=0.17->selenium) (1.3.1)
+Requirement already satisfied: cffi>=1.14 in c:\users\vignesh\appdata\local\programs\python\python312\lib\site-packages (from trio~=0.17->selenium) (1.16.0)
+Requirement already satisfied: wsproto>=0.14 in c:\users\vignesh\appdata\local\programs\python\python312\lib\site-packages (from trio-websocket~=0.9->selenium) (1.2.0)
+Requirement already satisfied: pysocks!=1.5.7,<2.0,>=1.5.6 in c:\users\vignesh\appdata\local\programs\python\python312\lib\site-packages (from urllib3[socks]<3,>=1.26->selenium) (1.7.1)
+Requirement already satisfied: pycparser in c:\users\vignesh\appdata\local\programs\python\python312\lib\site-packages (from cffi>=1.14->trio~=0.17->selenium) (2.21)
+Requirement already satisfied: h11<1,>=0.9.0 in c:\users\vignesh\appdata\local\programs\python\python312\lib\site-packages (from wsproto>=0.14->trio-websocket~=0.9->selenium) (0.14.0)
+
+[notice] A new release of pip is available: 24.0 -> 24.1.1
+[notice] To update, run: python.exe -m pip install --upgrade pip
+
+D:\Automation study\Python Programming\Python class file\pythonProjectSelenium_0405\Task26>pip install flask
+Collecting flask
+  Downloading flask-3.0.3-py3-none-any.whl.metadata (3.2 kB)
+Collecting Werkzeug>=3.0.0 (from flask)
+  Downloading werkzeug-3.0.3-py3-none-any.whl.metadata (3.7 kB)
+Requirement already satisfied: Jinja2>=3.1.2 in c:\users\vignesh\appdata\local\programs\python\python312\lib\site-packages (from flask) (3.1.4)
+Collecting itsdangerous>=2.1.2 (from flask)
+  Downloading itsdangerous-2.2.0-py3-none-any.whl.metadata (1.9 kB)
+Collecting click>=8.1.3 (from flask)
+  Downloading click-8.1.7-py3-none-any.whl.metadata (3.0 kB)
+Collecting blinker>=1.6.2 (from flask)
+  Downloading blinker-1.8.2-py3-none-any.whl.metadata (1.6 kB)
+Requirement already satisfied: colorama in c:\users\vignesh\appdata\roaming\python\python312\site-packages (from click>=8.1.3->flask) (0.4.6)
+Requirement already satisfied: MarkupSafe>=2.0 in c:\users\vignesh\appdata\local\programs\python\python312\lib\site-packages (from Jinja2>=3.1.2->flask) (2.1.5)
+Downloading flask-3.0.3-py3-none-any.whl (101 kB)
+   ---------------------------------------- 101.7/101.7 kB 831.8 kB/s eta 0:00:00
+Downloading blinker-1.8.2-py3-none-any.whl (9.5 kB)
+Downloading click-8.1.7-py3-none-any.whl (97 kB)
+   ---------------------------------------- 97.9/97.9 kB 933.0 kB/s eta 0:00:00
+Downloading itsdangerous-2.2.0-py3-none-any.whl (16 kB)
+Downloading werkzeug-3.0.3-py3-none-any.whl (227 kB)
+   ---------------------------------------- 227.3/227.3 kB 187.7 kB/s eta 0:00:00
+Installing collected packages: Werkzeug, itsdangerous, click, blinker, flask
+Successfully installed Werkzeug-3.0.3 blinker-1.8.2 click-8.1.7 flask-3.0.3 itsdangerous-2.2.0
+
+[notice] A new release of pip is available: 24.0 -> 24.1.1
+[notice] To update, run: python.exe -m pip install --upgrade pip
+
+D:\Automation study\Python Programming\Python class file\pythonProjectSelenium_0405\Task26>pip freeze > requirement.txt
+
+D:\Automation study\Python Programming\Python class file\pythonProjectSelenium_0405\Task26>pip install flask==2.2.3
+Collecting flask==2.2.3
+  Downloading Flask-2.2.3-py3-none-any.whl.metadata (3.9 kB)
+Requirement already satisfied: Werkzeug>=2.2.2 in c:\users\vignesh\appdata\local\programs\python\python312\lib\site-packages (from flask==2.2.3) (3.0.3)
+Requirement already satisfied: Jinja2>=3.0 in c:\users\vignesh\appdata\local\programs\python\python312\lib\site-packages (from flask==2.2.3) (3.1.4)
+Requirement already satisfied: itsdangerous>=2.0 in c:\users\vignesh\appdata\local\programs\python\python312\lib\site-packages (from flask==2.2.3) (2.2.0)
+Requirement already satisfied: click>=8.0 in c:\users\vignesh\appdata\local\programs\python\python312\lib\site-packages (from flask==2.2.3) (8.1.7)
+Requirement already satisfied: colorama in c:\users\vignesh\appdata\roaming\python\python312\site-packages (from click>=8.0->flask==2.2.3) (0.4.6)
+Requirement already satisfied: MarkupSafe>=2.0 in c:\users\vignesh\appdata\local\programs\python\python312\lib\site-packages (from Jinja2>=3.0->flask==2.2.3) (2.1.5)
+Downloading Flask-2.2.3-py3-none-any.whl (101 kB)
+   ---------------------------------------- 101.8/101.8 kB 532.6 kB/s eta 0:00:00
+Installing collected packages: flask
+  Attempting uninstall: flask
+    Found existing installation: Flask 3.0.3
+    Uninstalling Flask-3.0.3:
+      Successfully uninstalled Flask-3.0.3
+Successfully installed flask-2.2.3
+
+[notice] A new release of pip is available: 24.0 -> 24.1.1
+[notice] To update, run: python.exe -m pip install --upgrade pip
+
+D:\Automation study\Python Programming\Python class file\pythonProjectSelenium_0405\Task26>pip freeze > requirement.txt
